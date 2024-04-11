@@ -1,0 +1,16 @@
+.lista-itens {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* Exibe três itens por linha */
+  box-sizing: border-box;
+}
+
+.item h3 {
+  margin-top: 0;
+}
